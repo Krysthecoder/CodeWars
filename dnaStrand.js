@@ -17,3 +17,11 @@ function dnaStrand(dna) {
     }
     return arrayTwo.join("");
 }
+
+  //dnaStrand("TTAA")
+  //dnaStrand("ATTGC")
+  //Masta Solution
+function splitter(v){
+  return v.split('').reverse().join('')
+}
+splitter("123")
