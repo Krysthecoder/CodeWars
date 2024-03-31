@@ -1,3 +1,6 @@
+//Title: Alphabet symmetry
+//Link: https://www.codewars.com/kata/59d9ff9f7905dfeed50000b0 
+
 function solve(arr) {
     let alphabetIndex = "abcdefghijklmnopqrstuvwxyz".split("");
     let subArr = [];

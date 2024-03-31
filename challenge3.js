@@ -1,4 +1,4 @@
-//Fruit string calculator
+//Title: Fruit string calculator
 //https://www.codewars.com/kata/57b9fc5b8f5813384a000aa3/solutions/javascript?filter=me&sort=best_practice&invalids=false
 
 //I feel im getting stuck using the same methods again, my code relies on string, array, for loop etc, I feel im lacking on other methods like objects usage, 
