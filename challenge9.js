@@ -14,7 +14,7 @@ function sortCards(array){
         10 : "T",
         11 : "J",
         12 : "Q",
-        13 : "k",
+        13 : "K",
     }
     let subArr = []; //will have the converted array from letters into value
     let arraySolved = [];
