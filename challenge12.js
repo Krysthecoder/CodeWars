@@ -1,5 +1,5 @@
 //Title:Is it a letter?
-//Link: 
+//Link: https://www.codewars.com/kata/57a06b07cf1fa58b2b000252
 
 
 //first using regex, but I am not really sure about using it as i dont really understand that much of it
