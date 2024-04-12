@@ -18,9 +18,28 @@ function grabDoll(dolls) {
 
 ////my way of using .map and ternary operators
 
-function grabDoll(dolls){
-    var bag=[];
-    var subBag = []
-    dolls.map(doll => doll === "Hello Kitty" ? bag.push(doll) : doll === "Barbie doll" ? bag.push(doll) : subBag.push(doll))
-    return bag 
-  }
+function grabDoll(dolls) {
+  var bag = [];
+  var subBag = [];
+  dolls.map((doll) =>
+    doll === "Hello Kitty"
+      ? bag.push(doll)
+      : doll === "Barbie doll"
+      ? bag.push(doll)
+      : subBag.push(doll)
+  );
+  return bag;
+}
+
+const grabDoll = (dolls) => {
+  var bag = [],
+    subBag = [];
+  dolls.map((doll) =>
+    doll === "Hello Kitty"
+      ? bag.push(doll)
+      : doll === "Barbie doll"
+      ? bag.push(doll)
+      : subBag.push(doll)
+  );
+  return bag;
+};
