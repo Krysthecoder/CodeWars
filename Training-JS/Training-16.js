@@ -15,16 +15,15 @@ function cutIt(arr) {
   return newArr;
 }
 
-
 //did this one with .map() but I am not really sure as the lines used are almost the same
-function cutIt(arr){
-    let shorterStr = arr[0].length;
-    let newArr = [];
-    arr.map(str => {
-      str.length < shorterStr ? shorterStr = str.length : null;
-    });
-    arr.map(str =>{
-      newArr.push(str.split('').slice(0, shorterStr).join(''))
-    })
-    return newArr;
-  }
+function cutIt(arr) {
+  let shorterStr = arr[0].length;
+  let newArr = [];
+  arr.map((str) => {
+    str.length < shorterStr ? (shorterStr = str.length) : null;
+  });
+  arr.map((str) => {
+    newArr.push(str.split("").slice(0, shorterStr).join(""));
+  });
+  return newArr;
+}
