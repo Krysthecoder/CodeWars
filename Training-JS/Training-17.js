@@ -16,3 +16,7 @@ firstToLast("ababc", "c"); // , 0);
 firstToLast("ababc", "d"); // , -1)
 
 //honestly I still dont understand them, so I will study them more deeply
+
+//.search() busca de izq a der y entrega el indice de lo que se encuentre primeramente
+//.lastIndeOf() busca de derecha a izq y entrega el index del primer caracter que encuentre
+//.indexOf() still not sure
