@@ -13,3 +13,7 @@ alienLanguage("My name is John"); // , "My NAMe Is JOHn");
 alienLanguage("this is an example"); // , "THIs Is An EXAMPLe");
 alienLanguage("Hello World"); // , "HELLo WORLd");
 alienLanguage("HELLO WORLD"); // , "HELLo WORLd");
+
+
+
+//Rergular expresion readin

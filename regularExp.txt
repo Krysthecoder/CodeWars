@@ -1,0 +1,32 @@
+copy paste in run.js
+
+
+let string = "abc"
+let exp1 = RegExp(string);
+let exp2 = /abc/;
+//ambas crean el regex
+
+console.log(exp1.test("abcde")); //true
+/* Si abc ocurre en cualquier parte del string con la que estamos probando (no solo al comienzo), test retornara true. */
+console.log(/abcd/.test('abcd')); //true
+
+
+/////////////////////////////////////
+console.log(/[0123456789]/.test("en 1992"));
+// → true
+console.log(/[0-9]/.test("en 1992")); //el guion indica un rango
+// → true
+/* poner un conjunto de caracteres entre corchetes hace que esa parte de la expresión coincida con cualquiera de los caracteres entre los corchetes. */
+
+console.log(/./.test(""))
+//\d indica numero \w alfanumerico(numeros y letras)
+//\s Cualquier carácter de espacio en blanco
+//\D caracter que no es un dígito (signos?)
+//\W lo contrario a alfanumerico // . Cualquier caracter a excepción de una nueva línea
+//\S un character que no sea espacio en blanco
+
+let noBinario = /[^01]/;
+console.log(noBinario.test("1100100010100110"));
+// → false
+console.log(noBinario.test("1100100010200110"));
+// → true
