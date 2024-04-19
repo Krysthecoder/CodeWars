@@ -12,3 +12,16 @@ function persistence(num) {
   }
   return counter;
 }
+
+
+//enhanced version
+
+function persistence(num) {
+  let counter = 0;
+  num = num.toString()
+  while(num > 9){
+    num = num.split('').map(Number).reduce( (a,b) => a * b, 1).toString();
+    counter ++;
+  }
+  return counter
+}
