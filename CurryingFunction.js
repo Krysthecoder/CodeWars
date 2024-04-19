@@ -16,3 +16,14 @@ const multiplyAll = (arr) => (integer) => {
 };
 //final submition
 const multiplyAll = (arr) => (integer) =>  arr.map((element) => element * integer);
+
+
+//example of currying functions
+
+const multiply = (x,y) => x * y;
+
+const curriedMultiply = x => y => x * y;
+
+const test = a => b => a * b;
+
+test (2) (5) 
