@@ -9,7 +9,7 @@ const shuffleIt = (arr, ...indices) => {
   return arr;
 };
 
-const shuffleIt = (arr, ...index) => {
+const shuffleIt1 = (arr, ...index) => {
   for ([a, b] of index) {
     [arr[a], arr[b]] = [arr[b], arr[a]];
   }
