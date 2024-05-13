@@ -30,3 +30,6 @@ console.log(noBinario.test("1100100010100110"));
 // → false
 console.log(noBinario.test("1100100010200110"));
 // → true
+
+
+test
